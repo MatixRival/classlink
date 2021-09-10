@@ -68,7 +68,7 @@
   
 .clock-time,
 .clock-ampm {
-      font-family: "Concert One", cursive;
+      font-family: 'Courier New', Courier, monospace;
       font-size: 30px;
       color: #b4e852;
 }
