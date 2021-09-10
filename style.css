@@ -2,7 +2,7 @@
 
 * {
     font-family: 'Ubuntu Mono', monospace;
-    letter-spacing: 2.6px;
+    letter-spacing: 2px;
     background-color: none;
 }
 
@@ -15,11 +15,11 @@
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    min-height: 11vh;
+    min-height: 14vh;
 }
 
 .btn-1 {
-    width: 279px;
+    width: 250px;
     height: 80px;
     border: none;
     color: #b4e852;
@@ -39,7 +39,7 @@
 }
 
 .btn-1::before {
-    transition: 0.3s all ease;
+    transition: 0.5s all ease;
     position: absolute;
     top: 0;
     left: 50%;
@@ -51,12 +51,15 @@
 }
 
 .btn-1:hover::before {
-    transition: 0.3s all ease;
+    transition: 0.5s all ease;
     left: 0;
     right: 0;
     opacity: 1;
     z-index: -1;
 }
+
+
+
 
 .clock {
     background: #534f4f;
@@ -64,15 +67,15 @@
     padding: 10px;
     text-align: center;
     border-radius: 10px;
-}
+  }
   
-.clock-time,
-.clock-ampm {
-      font-family: 'Courier New', Courier, monospace;
-      font-size: 30px;
-      color: #b4e852;
-}
+  .clock-time,
+  .clock-ampm {
+    font-family: 'Nova Square', cursive;
+    font-size: 30px;
+    color: #b4e852;
+  }
   
-.clock-time {
+  .clock-time {
     font-size: 48px;
-}
+  }
