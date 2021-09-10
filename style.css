@@ -39,7 +39,7 @@
 }
 
 .btn-1::before {
-    transition: 0.5s all ease;
+    transition: 0.3s all ease;
     position: absolute;
     top: 0;
     left: 50%;
@@ -51,7 +51,7 @@
 }
 
 .btn-1:hover::before {
-    transition: 0.5s all ease;
+    transition: 0.3s all ease;
     left: 0;
     right: 0;
     opacity: 1;
