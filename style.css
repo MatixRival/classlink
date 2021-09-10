@@ -64,15 +64,15 @@
     padding: 10px;
     text-align: center;
     border-radius: 10px;
-  }
+}
   
-  .clock-time,
-  .clock-ampm {
-    font-family: "Concert One", cursive;
-    font-size: 30px;
-    color: #b4e852;
-  }
+.clock-time,
+.clock-ampm {
+      font-family: "Concert One", cursive;
+      font-size: 30px;
+      color: #b4e852;
+}
   
-  .clock-time {
+.clock-time {
     font-size: 48px;
-  }
+}
